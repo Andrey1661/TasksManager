@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TasksManager.DataAccess\TasksManager.DataAccess.csproj" />
+    <ProjectReference Include="..\TasksManager.Db\TasksManager.Db.csproj" />
+    <ProjectReference Include="..\TasksManager.Entities\TasksManager.Entities.csproj" />
+    <ProjectReference Include="..\TasksManager.ViewModels\TasksManager.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+  </ItemGroup>
+
+</Project>
